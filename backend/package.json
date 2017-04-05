@@ -7,10 +7,10 @@
     "url": "git://github.com/leojnxs/my-money-app.git"
   },
   "private": true,
-  "main": "src/config/loader.js",
+  "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/config/loader.js --name my-money-backend"
+    "production": "pm2 start src/loader.js --name my-money-backend"
   },
   "keywords": [],
   "author": "",
