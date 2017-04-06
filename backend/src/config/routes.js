@@ -1,6 +1,6 @@
 const express = require('express');
 
-module.exports = function(server) {
+module.exports = server => {
   const router = express.Router();
   const billingCycleService = require('../api/billingCycle/billingCycleService');
 
