@@ -10,7 +10,8 @@
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/loader.js --name mymoney-backend"
+    "production": "pm2 start src/loader.js --name mymoney-backend",
+    "stop": "pm2 stop mymoney-backend"
   },
   "keywords": [],
   "author": "",
