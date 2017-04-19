@@ -9,7 +9,7 @@ const server = express();
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(bodyParser.json());
 server.use(allowCors);
-server.use(queryParser);
+server.use(queryParser({parser: parseFloat}));
 
 server.listen(port, function() {
   console.log(`server running on port ${port}...`);
